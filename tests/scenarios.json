@@ -1,0 +1,12 @@
+[
+  {"id": "status_01", "input": "Where is my order ORD1001?", "expect_tool": "get_order_status"},
+  {"id": "status_02", "input": "Track ORD1002 please", "expect_tool": "get_delivery_update"},
+  {"id": "status_03", "input": "Has ORD1003 been delivered?", "expect_tool": "get_order_status"},
+  {"id": "status_04", "input": "status of order ORD9999", "expect_tool": "get_order_status"},
+  {"id": "issue_01", "input": "My order ORD1003 arrived damaged, the leg is broken", "expect_tool": "report_order_issue"},
+  {"id": "issue_02", "input": "ORD1004 is very late, it was supposed to come on the 15th", "expect_tool": "report_order_issue"},
+  {"id": "issue_03", "input": "I got the wrong item in ORD1001, ordered a mouse but got a keyboard", "expect_tool": "report_order_issue"},
+  {"id": "appt_01", "input": "I want to speak to your support team tomorrow, what slots are free?", "expect_tool": "check_availability"},
+  {"id": "general_01", "input": "Hi there!", "expect_tool": null},
+  {"id": "general_02", "input": "What can you help me with?", "expect_tool": null}
+]
