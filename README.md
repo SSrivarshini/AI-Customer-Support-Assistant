@@ -145,6 +145,4 @@ Runs the scenarios in `tests/scenarios.json` and checks that each message trigge
 
 **Srivarshini S**: [GitHub](https://github.com/SSrivarshini)
 
-## License
 
-MIT
